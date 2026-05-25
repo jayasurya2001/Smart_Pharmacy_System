@@ -1,0 +1,106 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Python / FastAPI
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Mypy / Ruff / Black caches
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# FastAPI specific
+instance/
+uploads/
+
+# =========================
+# React / Frontend
+# =========================
+node_modules/
+
+# React build
+build/
+dist/
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Vite
+.vite/
+
+# Next.js
+.next/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage/
+
+# Environment variables
+frontend/.env
+frontend/.env.*
+!.env.example
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Misc
+# =========================
+tmp/
+temp/
+*.tmp
+
+*.db
+*.mp4
+*.png
+*.txt
